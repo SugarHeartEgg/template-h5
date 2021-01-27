@@ -67,5 +67,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "optionalDependencies": {
+    "nan": "^2.14.2"
   }
 }
