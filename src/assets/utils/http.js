@@ -6,8 +6,6 @@ if (process.env.VUE_APP_NODE_ENV !== "development") {
   axios.defaults.baseURL = process.env.VUE_APP_PROXY;
 }
 
-// axios 需要根据 自家后端的 需要 去封装，封装的优不优雅，就要看，接口写的有多烂.
-
 // 添加请求拦截器
 axios.interceptors.request.use(
   function(config) {

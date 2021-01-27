@@ -19,6 +19,7 @@ import echarts from "echarts";
 
 // 默认css
 import "@/assets/css/index.css";
+import "./assets/css/iconfont.css";
 
 Vue.use(Vant);
 
