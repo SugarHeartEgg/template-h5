@@ -11,7 +11,7 @@ module.exports = {
     https: false,
     proxy: {
       "": {
-        target: process.env.VUE_APP_PROXY,
+        target: process.env.VUE_APP_PROXY, // need to inject a VUE_APP_PROXY by .env file
         changeOrigin: true,
         ws: true
       }
